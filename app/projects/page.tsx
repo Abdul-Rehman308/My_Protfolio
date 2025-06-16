@@ -26,6 +26,8 @@ import { Github } from "lucide-react";
 import { TbBrandVercel, TbBrandVercelFilled } from "react-icons/tb";
 import { Button } from "@/components/ui/button";
 
+// Projects Page: Displays Abdul Rehman's featured and recent projects
+
 type Project = {
   id: string;
   title: string;
