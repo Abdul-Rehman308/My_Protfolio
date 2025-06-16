@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
+// Layout File: Defines the main structure and metadata for the portfolio
 const jetbrains = localFont({
   src: "../app/fonts/Jetbrains.woff2",
   variable: "--font-jetbrains",
