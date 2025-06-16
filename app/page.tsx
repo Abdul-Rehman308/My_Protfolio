@@ -8,6 +8,8 @@ import SocialLinks from "@/components/ui/socialLinks";
 import Statistics from "@/components/ui/statistics";
 import { Download } from "lucide-react";
 
+// Home Page: Showcases introduction and highlights of Abdul Rehman
+
 export default function Home() {
   return (
     <div className="bg-bodyColor text-white/80 relative flex">
