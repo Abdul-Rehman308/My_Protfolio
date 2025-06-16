@@ -8,6 +8,7 @@ import { TbMenu2 } from "react-icons/tb";
 import Sidebar from "./sidebar";
 import { useState } from "react";
 
+// Updated header component with improved navigation
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const pathname = usePathname();
