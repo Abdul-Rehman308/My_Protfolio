@@ -24,7 +24,5 @@ export const experienceData = [
     title: "Fullstack Developer",
     description:
       "I learnt Fullstack Development with experience by building different websites and web applications involving the use of different technologies such as Next.js, TypeScript, JavaScript, Tailwind CSS, HTML ",
-   },
-  
+  },
 ];
-

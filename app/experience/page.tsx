@@ -1,3 +1,4 @@
+// Experience Page: Highlights Abdul Rehman's professional journey and skills
 import PageLayout from "@/components/PageLayout";
 import Title from "@/components/title";
 import { Separator } from "@/components/ui/separator";
@@ -21,17 +22,19 @@ const experience = () => {
               rounded-lg shadow-md group hover:shadow-lg gap-2.5 hoverEffect"
             >
               <div className="w-full flex ">
-                <p className="text-5xl font-extrabold               
+                <p
+                  className="text-5xl font-extrabold               
                               text-outline text-transparent 
                               group-hover:text-outline-hover 
                               hoverEffect
-                            ">
+                            "
+                >
                   {item?.id}
                 </p>
               </div>
               <h2 className="font-semibold text-white">{item?.title}</h2>
               <p className="text-sm md:text-base pb-2">{item?.description}</p>
-            <Separator className="bg-white/20"/>
+              <Separator className="bg-white/20" />
             </div>
           ))}
         </div>
