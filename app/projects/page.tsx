@@ -23,7 +23,7 @@ import {
 } from "@/components/ui/tooltip";
 import Link from "next/link";
 import { Github } from "lucide-react";
-import { TbBrandVercel, TbBrandVercelFilled } from "react-icons/tb";
+import { TbBrandVercel } from "react-icons/tb";
 import { Button } from "@/components/ui/button";
 
 // Projects Page: Displays Abdul Rehman's featured and recent projects
@@ -34,7 +34,7 @@ type Project = {
   category: string;
   description: string;
   stack: string[];
-  image: any;
+  image: string | StaticImageData;
   githubUrl: string;
   vercleUrl: string;
 };

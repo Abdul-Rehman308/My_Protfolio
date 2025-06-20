@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Facebook, Github, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import {
   Tooltip,
   TooltipProvider,

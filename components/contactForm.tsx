@@ -64,8 +64,6 @@ const ContactForm = () => {
         body: JSON.stringify(formData),
       });
 
-      const result = await response.json();
-
       if (response.ok) {
         setSuccess(true);
         setStatus("Success! Your message has been sent.");
