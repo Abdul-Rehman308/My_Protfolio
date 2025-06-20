@@ -25,6 +25,7 @@ import Link from "next/link";
 import { Github } from "lucide-react";
 import { TbBrandVercel } from "react-icons/tb";
 import { Button } from "@/components/ui/button";
+import type { StaticImageData } from "next/image";
 
 // Projects Page: Displays Abdul Rehman's featured and recent projects
 
